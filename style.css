@@ -1,11 +1,15 @@
 body{
-    margin: 0px;background: yellow;text-transform: capitalize
+    margin: 0px;background: yellow;text-transform: capitalize;background: rgb(32,142,128);
+    background: -moz-linear-gradient(169deg, rgba(32,142,128,0.9416141456582633) 3%, rgba(43,255,124,0.9444152661064426) 50%, rgba(44,224,210,0.9528186274509804) 97%);
+    background: -webkit-linear-gradient(169deg, rgba(32,142,128,0.9416141456582633) 3%, rgba(43,255,124,0.9444152661064426) 50%, rgba(44,224,210,0.9528186274509804) 97%);
+    background: linear-gradient(169deg, rgba(32,142,128,0.9416141456582633) 3%, rgba(43,255,124,0.9444152661064426) 50%, rgba(44,224,210,0.9528186274509804) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#208e80",endColorstr="#2ce0d2",GradientType=1);
 }
 #navbar{
     display: flex;justify-content: center;background: rgb(0, 0, 0);color: black;height: 60px;align-items: center;justify-content: space-around;text-transform: capitalize;color: white
 }
 .zero{
-    position: relative;left: 40px;font-size: 30px
+    position: relative;left: 41px;font-size: 30px
 }
 .one{position: relative;left: 380px;font-size: 20px
 
@@ -24,63 +28,72 @@ body{
 .five{position: relative;left:-10px;font-size: 20px
     
 }
-.first{position: relative;top: 25px;left: 115px;margin-top: 100px;font-size: 25px;color: rgb(22, 36, 22)
+.first{position: relative;top: 25px;left: 115px;margin-top: 100px;font-size: 25px;color: rgb(22, 36, 22);width: 190px
 
 }
-.second{width: 330px;font-size: 30px;position: relative;left: 115px;top: 20px
+.second{width: 330px;font-size: 30px;position: relative;left: 115px;top: 20px;width: 310px
 
 }
-.third{position: relative;top: 20px;left: 115px;
+.third{position: relative;top: 20px;left: 115px;width: 435px
 
 }
 
 .fourth{
-    border: 1px solid black;width: 200px;;height:30px;display: flex;justify-content: center;align-items: center;border-radius: 20px;position: relative;top: 70px;left: 115px;font-size: 25px;background:rgb(11, 119, 138);color: white;
+    border: 1px solid black;width: 200px;;height:30px;display: flex;justify-content: center;align-items: center;border-radius: 20px;position: relative;top: 70px;left: 115px;font-size: 25px;background:rgb(11, 119, 138);color: white;width: 200px
 }
 .image{border: 2px solid black;position: absolute;right: 200px;top: 160px;width: 300px;height: 300px;border-radius: 50%;background-image: url(./images.png);background-size: cover
 
 }
 @media only screen and (min-width:360px)and (max-width:720px){
  body{
-     background: rgb(26, 182, 117);text-transform: capitalize
+    background: rgb(64,168,48);
+    background: rgb(32,142,128);
+    background: -moz-linear-gradient(169deg, rgba(32,142,128,0.9416141456582633) 3%, rgba(43,255,124,0.9444152661064426) 50%, rgba(44,224,210,0.9528186274509804) 97%);
+    background: -webkit-linear-gradient(169deg, rgba(32,142,128,0.9416141456582633) 3%, rgba(43,255,124,0.9444152661064426) 50%, rgba(44,224,210,0.9528186274509804) 97%);
+    background: linear-gradient(169deg, rgba(32,142,128,0.9416141456582633) 3%, rgba(43,255,124,0.9444152661064426) 50%, rgba(44,224,210,0.9528186274509804) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#208e80",endColorstr="#2ce0d2",GradientType=1);;text-transform: capitalize
  }
     #navbar{
         background: black;color:whitesmoke;font-size: 13px;height: 40px
     }
-    .zero{
-        position: relative;left: 2px;font-size:20px
+    .allcontent{
+        width: 100%;height: 100%;
     }
-    .one{position: relative;left: 23px;font-size: 13px
+    .zero{
+        position: relative;left: 10px;font-size:20px
+    }
+    .one{position: relative;left: 25px;font-size: 13px;margin-left: 20px
     
     }
    
-   .two{position: relative;left: 20px;font-size: 13px
+   .two{position: relative;left: 20px;font-size: 13px;margin-left: 10px
         
     }
     
-    .three{position: relative;left: 20px;font-size: 13px
+    .three{position: relative;left: 23px;font-size: 13px;margin-left: 0px
         
     }
-    .four{border-left: 1px solid white;padding-left:8px;
-        position: relative;left: 10px;font-size: 13px
+    .four{border-left: 1px solid white;padding-left:8px;margin-left: 10px;
+        position: relative;left: 14px;font-size: 13px
         
     }
-    .five{position: relative;left: 0px;font-size: 13px
+    .five{position: relative;left: 0px;font-size: 13px;margin-left: 20px
        
     
 }
-.first{position: relative;top: 25px;left: 10px;margin-top: 50px;font-size: 17px
+.first{position: relative;top: 15px;left: 12px;margin-top: 50px;font-size: 17px;width: 130px
 
 }
-.second{width: 139px;font-size: 16px;position: relative;left: 10px;top: 20px
+.second{width: 139px;font-size: 16px;position: relative;left: 10px;top: 20px;width: 165px
 
 }
-.third{position: relative;top: 22px;left: 10px;
+.third{position: relative;top: 22px;left: 10px;width: 290px
 
 }
-.fourth{position: relative;top: 50px;left: 10px;background: red;color: rgb(10, 8, 8)
+.fourth{position: relative;top: 50px;left: 10px;background: red;color: rgb(10, 8, 8);width: 200px
 
 }
-.image{border: 2px solid black;position: absolute;right: 30px;top: 130px;width: 100px;height: 100px;border-radius: 50%;background-image: url(./images.png);background-size: cover
+.image{border: 2px solid black;position: absolute;right: 30px;top: 105px;width: 100px;height: 100px;border-radius: 50%;background-image: url(./images.png);background-size: cover
 
+}
 }
